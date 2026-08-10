@@ -1,0 +1,26 @@
+{
+  "name": "zabbru-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "framer-motion": "^11.3.31",
+    "lucide-react": "^0.539.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^22.7.4",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "tailwindcss": "^3.4.10",
+    "postcss": "^8.4.45",
+    "autoprefixer": "^10.4.20"
+  }
+}
